@@ -1,22 +1,52 @@
-# Compiled class file
-*.class
-
-# Log file
+# general
+.#*
+._*
+.DS_Store
+.buildinfo
+*.bak
+*~
+*.setting
+*.pyc
+*.odem
+*.ws
+*.dtd
 *.log
+*.pid
+*.port
+.gradle/
+build/
+target/
+pom.xml
+pom.xml.asc
 
-# BlueJ files
-*.ctxt
+# intellij idea
+*.iml
+*.ipr
+*.iws
+.idea/
+classes/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# eclipse
+.project
+.classpath
+.settings/
+out/
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# vagrant
+.vagrant
+local-conf.rb
+cloud-conf
+Vagrantfile
+**/devops/env/local/shared/persistent/*
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# clojure/leiningen
+checkouts/
+.lein-*
+.nrepl-*
+profiles.clj
+
+# node
+node_modules/
+
+# svn
+.svn
